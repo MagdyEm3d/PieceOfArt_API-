@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.CategoryController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Category/Add-Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categorydto",
+        "Type": "PiecesOfArt_Application_Assignment.DTOS.Categorydto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/Delete-Secound-Recourd",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.LoyaltyCardController",
+    "Method": "AddLoyaltyCard",
+    "RelativePath": "api/LoyaltyCard/Add-LoyaltyCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loyaltyCarddto",
+        "Type": "PiecesOfArt_Application_Assignment.DTOS.LoyaltyCarddto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.LoyaltyCardController",
+    "Method": "DeleteLoyaltyCard",
+    "RelativePath": "api/LoyaltyCard/Delete-Secound-Recourd",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.PieceOfArtController",
+    "Method": "AddPieceOfArt",
+    "RelativePath": "api/PieceOfArt/Add-PieceOfArt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pieceOfArtdto",
+        "Type": "PiecesOfArt_Application_Assignment.DTOS.PieceOfArtdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.PieceOfArtController",
+    "Method": "DeletePiece",
+    "RelativePath": "api/PieceOfArt/Delete-Piece/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.PieceOfArtController",
+    "Method": "GetAllPieces",
+    "RelativePath": "api/PieceOfArt/GetAllPieces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/Add-User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userdto",
+        "Type": "PiecesOfArt_Application_Assignment.DTOS.Userdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/Delete-Second-Record",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PiecesOfArt_Application_Assignment.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/update-user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userUpdateDto",
+        "Type": "PiecesOfArt_Application_Assignment.DTOS.UserUpdatedto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

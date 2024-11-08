@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PiecesOfArt Application Assignment.props" />
+</Project>

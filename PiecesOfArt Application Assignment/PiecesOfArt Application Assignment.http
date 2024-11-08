@@ -1,0 +1,6 @@
+@PiecesOfArt_Application_Assignment_HostAddress = http://localhost:5100
+
+GET {{PiecesOfArt_Application_Assignment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
